@@ -21,6 +21,7 @@
   };
   time.timeZone = "Asia/Shanghai";
 
+  hardware.bluetooth.enable = true;
   i18n.inputMethod = {
     enable = true;
     type = "fcitx5";
