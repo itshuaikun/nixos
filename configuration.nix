@@ -80,7 +80,7 @@
     unstable.codex
   ];
   environment.variables.EDITOR = "vim";
-
+  programs.kdeconnect.enable = true;
   programs.git = {
     enable = true;
     config = {
